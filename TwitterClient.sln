@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterClient.WebApi", "TwitterClient.Web.Api\TwitterClient.WebApi.csproj", "{7D0FAFCB-9E20-447D-86D5-3C346E422578}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterClient.Application", "TwitterClient.Application\TwitterClient.Application.csproj", "{6116780B-6DE0-46F9-A800-DC0CF825CCCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterClient.Infrastructure", "TwitterClient.Infrastructure\TwitterClient.Infrastructure.csproj", "{C08A2484-F90F-4E34-89E0-9EDFAC187BB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterClient.Application.Test", "TwitterClient.Application.Test\TwitterClient.Application.Test.csproj", "{0F237359-1711-4C33-B309-22A8E3896D15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterClient.DataAccess", "TwitterClient.DataAccess\TwitterClient.DataAccess.csproj", "{685C0680-6758-4114-A88E-170D9D981F29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterClient.Domain", "TweetClient.Domain\TwitterClient.Domain.csproj", "{75123A26-73CB-438E-ACA8-BDB87E94D9A5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TwitterClient.Web", "TwitterClient.Web\", "{F3B5D47E-0DF5-424C-91DB-2A12EB0FF215}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54125"
+		Debug.AspNetCompiler.PhysicalPath = "TwitterClient.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54125\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54125"
+		Release.AspNetCompiler.PhysicalPath = "TwitterClient.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54125\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54125"
+		SlnRelativePath = "TwitterClient.Web\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D0FAFCB-9E20-447D-86D5-3C346E422578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0FAFCB-9E20-447D-86D5-3C346E422578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0FAFCB-9E20-447D-86D5-3C346E422578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0FAFCB-9E20-447D-86D5-3C346E422578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6116780B-6DE0-46F9-A800-DC0CF825CCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6116780B-6DE0-46F9-A800-DC0CF825CCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6116780B-6DE0-46F9-A800-DC0CF825CCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6116780B-6DE0-46F9-A800-DC0CF825CCCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08A2484-F90F-4E34-89E0-9EDFAC187BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08A2484-F90F-4E34-89E0-9EDFAC187BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08A2484-F90F-4E34-89E0-9EDFAC187BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08A2484-F90F-4E34-89E0-9EDFAC187BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F237359-1711-4C33-B309-22A8E3896D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F237359-1711-4C33-B309-22A8E3896D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F237359-1711-4C33-B309-22A8E3896D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F237359-1711-4C33-B309-22A8E3896D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685C0680-6758-4114-A88E-170D9D981F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685C0680-6758-4114-A88E-170D9D981F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685C0680-6758-4114-A88E-170D9D981F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685C0680-6758-4114-A88E-170D9D981F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75123A26-73CB-438E-ACA8-BDB87E94D9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75123A26-73CB-438E-ACA8-BDB87E94D9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75123A26-73CB-438E-ACA8-BDB87E94D9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75123A26-73CB-438E-ACA8-BDB87E94D9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B5D47E-0DF5-424C-91DB-2A12EB0FF215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B5D47E-0DF5-424C-91DB-2A12EB0FF215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B5D47E-0DF5-424C-91DB-2A12EB0FF215}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B5D47E-0DF5-424C-91DB-2A12EB0FF215}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1287C670-2034-4BCB-AA53-704DD2E18AA7}
+	EndGlobalSection
+EndGlobal
