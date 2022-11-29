@@ -23,7 +23,7 @@ namespace TwitterClient.Application .Test
                 ,new SampleTweet() { id =  "1", text = "#ht10" }
             };
 
-            Parallel.ForEach(data, new ParallelOptions() { MaxDegreeOfParallelism = 1} , async (tweet) => { await collectionService.CollectTweetAsync(tweet); });
+            Parallel.ForEach(data, new ParallelOptions() { MaxDegreeOfParallelism = 10} , async (tweet) => { await collectionService.CollectTweetAsync(tweet); });
 
             var sut = new TweetAnalysisService(collectionService);
 
