@@ -1,7 +1,7 @@
 # TweetClientApp.TweeClient.WebApi
 This is a C# .Net Core Rest API which exposes one end point to get the Twitter metrics ( total tweets streamed and the top ten hashtags )
 
-This is a monolith Web API and is divided in to multi layers
+This is a monolith Web API with layered architecture
 1) TweetClient.WebApi -> Rest API -> which has the end point for the client(s) to connect and get metrics
 2) TweetClient.Application -> This is the Applicaton layer -> which has the application use case logic
 3) TweetClient.Application.Tests -> This is the Unit tests -> which has unit tests for the application code 
